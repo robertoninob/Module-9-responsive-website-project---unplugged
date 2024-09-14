@@ -88,12 +88,12 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-   .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-  }
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
 
 /* ==========================================================================
    Author's custom styles
@@ -143,6 +143,14 @@ p {
   line-height: 1.285;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -167,6 +175,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -236,6 +248,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }
@@ -284,6 +300,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -326,6 +345,7 @@ input[type=button] {
   width: 55%;
   margin: 20px 0;
 }
+
 /* ==========================================================================
    About Page
    ========================================================================== */
@@ -517,6 +537,10 @@ input[type=button] {
 
   /* Hero Area */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -564,6 +588,11 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article div {
+    width: 49%;
+  }
+
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -756,8 +785,8 @@ input[type=button] {
     font-size: 1.125em;
     line-height: 1;
   }
-  }
-  
+}
+
 
 }
 
